@@ -107,7 +107,7 @@ jQuery(document).ready(function($) {
         } else {
           $("#sendmessage").removeClass("show");
           $("#errormessage").addClass("show");
-          $('#errormessage').html(msg);
+          $('#errormessage').html("Message Sent Failed! Something went wrong! Please reach us manually at contact@nileshvishwa.com");
         }
 
       }
