@@ -100,14 +100,14 @@ jQuery(document).ready(function($) {
       data: str,
       success: function(msg) {
         // alert(msg);
-        if (msg == 'OK') {
+        if (msg == 'Message has been sent successfully') {
           $("#sendmessage").addClass("show");
           $("#errormessage").removeClass("show");
           $('.contactForm').find("input, textarea").val("");
         } else {
           $("#sendmessage").removeClass("show");
           $("#errormessage").addClass("show");
-          $('#errormessage').html("Message Sent Failed! Something went wrong! Please reach us manually at contact@nileshvishwa.com");
+          $('#errormessage').html(msg);
         }
 
       }
