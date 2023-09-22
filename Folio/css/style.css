@@ -246,7 +246,7 @@ nav ul li a {
 }
 
 #bg1{
-  background: url("../images/bg.jpg") repeat scroll center center / cover;
+  background: url("../images/bg23.png") repeat scroll center center / cover;
 
 }
 
@@ -264,7 +264,7 @@ nav ul li a {
   font-weight: 700;
   margin-bottom: 20px;
   text-transform: uppercase;
-  color: #f7ce06;
+  color: #fffefc;
 }
 
 .header-content p {
@@ -273,7 +273,7 @@ nav ul li a {
   margin-top: 0;
   margin-bottom: 30px;
   text-transform: capitalize;
-  color: #050505;
+  color: #229993;
   font-weight: 500;
 }
 
@@ -283,8 +283,8 @@ nav ul li a {
 }
 
 .header-content .list-social li i {
-  color: #0c0c0c;
-  font-size: 15px;
+  color: #ffffff;
+  font-size: 18px;
 }
 
 /*-----------------------------------------------------------------------------------*/
